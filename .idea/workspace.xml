@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17077a1e-e771-41a0-a16e-7c29cc935dc9" name="Changes" comment="First upload" />
+    <list default="true" id="17077a1e-e771-41a0-a16e-7c29cc935dc9" name="Changes" comment="First upload">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Plan-Lekcji" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -47,6 +50,7 @@
       <workItem from="1637669328562" duration="1418000" />
       <workItem from="1637670772289" duration="4398000" />
       <workItem from="1637740190089" duration="658000" />
+      <workItem from="1637740872868" duration="2487000" />
     </task>
     <servers />
   </component>
@@ -64,6 +68,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="First upload" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
