@@ -7,7 +7,7 @@ function start() {
     document.getElementById('select').value = day
 
     changePlan()
-    
+
 
 }
 
@@ -61,7 +61,7 @@ var lessonsHours = {
     8: ['15:45', '16:30']
 };
 
-var setTimer = function() {
+var setTimer = function () {
     var counterDate = new Date();
     var time = counterDate.getHours() + ':' + counterDate.getMinutes();
     var config = lessonsHours;
@@ -86,14 +86,13 @@ var setTimer = function() {
             lesson = true;
         }
     }
-    if (lesson){
+    if (lesson) {
         document.getElementById('isLesson').innerText = "Masz lekcje :C"
+    } else {
+        document.getElementById('isLesson').innerText = "Przerwa!!! :D"
     }
-    else{
-        document.getElementById('isLesson').innerText = "Nie masz lekcji :D"
-    }
-    
-   
+
+
 }
 var startTimer = setInterval(setTimer, 1000);
 
@@ -101,18 +100,15 @@ var startTimer = setInterval(setTimer, 1000);
 function weekday() {
     var day = new Date()
     var day = day.getDay()
-    
-    
+
+
     if (day == 6) {
         document.getElementById('isWeekday').innerText = "Nie ma szkoły :D"
-    }
-    else if (day == 0) {
+    } else if (day == 0) {
         document.getElementById('isWeekday').innerText = "Nie ma szkoły :D"
-    }
-    else {
+    } else {
         document.getElementById('isWeekday').innerText = "Jest szkoła :C"
     }
-    
-
-
 }
+
+weekday()
