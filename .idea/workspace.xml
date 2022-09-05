@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17077a1e-e771-41a0-a16e-7c29cc935dc9" name="Changes" comment="Update 2022">
+    <list default="true" id="17077a1e-e771-41a0-a16e-7c29cc935dc9" name="Changes" comment="Update 2.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +60,9 @@
       <workItem from="1662358190012" duration="207000" />
       <workItem from="1662358397912" duration="1485000" />
       <workItem from="1662359956318" duration="455000" />
+      <workItem from="1662360716224" duration="28000" />
+      <workItem from="1662360908048" duration="665000" />
+      <workItem from="1662383046934" duration="736000" />
     </task>
     <task id="LOCAL-00001" summary="First upload">
       <created>1637744289082</created>
@@ -73,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662359826038</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update 2.1">
+      <created>1662360729872</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662360729872</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,7 +105,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First upload" />
     <MESSAGE value="Update 2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 2022" />
+    <MESSAGE value="Update 2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 2.1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -57,7 +57,7 @@ var lessonsHours = {
     4: ['11:45', '12:30'],
     5: ['13:15', '14:00'],
     6: ['14:15', '15:00'],
-    7: ['15:05', '15:05'],
+    7: ['15:05', '15:50'],
     8: ['15:55', '16:40']
 };
 
@@ -78,7 +78,8 @@ var setTimer = function () {
         var lessonMinuteStart = Number(lessonTimes[0].split(':')[1]);
         var lessonHourStop = Number(lessonTimes[1].split(':')[0]);
         var lessonMinuteStop = Number(lessonTimes[1].split(':')[1]);
-
+        
+        
         if (
             (lessonHourStart <= hour && lessonHourStop >= hour) &&
             (hour === lessonHourStart && hour !== lessonHourStop ? minute >= lessonMinuteStart : minute < lessonMinuteStop)
